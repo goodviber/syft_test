@@ -19,7 +19,7 @@ class DiscountManager
 
   def discount_total(total)
     promo_rules.each do |promo_rule|
-      if promo_rule.type == PromoRule::TYPE[:discount] # discount
+      if promo_rule.type == PromoRule::TYPE[:discount]
         total = promo_rule.apply(total)
       end
     end

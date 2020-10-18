@@ -45,4 +45,4 @@ Total price expected: £73.76
 --------------------------------------------
 </div>
 
-Clone repositry, run `bundle install` and run tests with `bundle exec rspec`
+Clone repository, run `bundle install` and run tests with `bundle exec rspec`
